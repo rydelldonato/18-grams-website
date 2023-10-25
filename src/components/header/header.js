@@ -27,13 +27,13 @@ export default function Header() {
       </div>
       <div className="menuContainer">
         <div className={`vertical-menu ${isChange ? "show" : ""}`}>
-          <a href="#" className="active">
+          <a href="https://www.instagram.com/18grams.916/" className="active">
             HOURS & LOCATIONS
           </a>
-          <a href="#">MENUS</a>
-          <a href="#">OUR STORY</a>
-          <a href="#">ORDER PICKUP</a>
-          <a href="#">CONTACT</a>
+          <a href="https://www.instagram.com/18grams.916/">MENUS</a>
+          <a href="https://www.instagram.com/18grams.916/">OUR STORY</a>
+          <a href="https://www.instagram.com/18grams.916/">ORDER PICKUP</a>
+          <a href="https://www.instagram.com/18grams.916/">CONTACT</a>
           <div className="socialLine"></div>
           <FontAwesomeIcon icon="fa-brands fa-square-instagram" />
         </div>
