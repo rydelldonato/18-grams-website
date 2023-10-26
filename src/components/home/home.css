@@ -9,6 +9,22 @@
     justify-content: center;
     align-items: center;
   }
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Adjust the value to control the bounce height */
+    }
+  }
+  
+  .arrow-icon {
+    position: absolute;
+    z-index: 1000;
+    left: 44.3vw;
+    top: 20vh;
+    animation: bounce 1s infinite;
+  }
 }
 
 /* Media query for mobile medium (max-width: 375px) */
