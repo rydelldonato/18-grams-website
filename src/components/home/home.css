@@ -1,0 +1,16 @@
+/* Media query for mobile large (max-width: 767px) */
+@media (max-width: 768px) {
+  .headline {
+    text-align: center;
+  }
+  .headLineContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Media query for mobile medium (max-width: 375px) */
+@media (max-width: 375px) {
+}
