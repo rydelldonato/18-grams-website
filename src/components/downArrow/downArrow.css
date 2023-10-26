@@ -1,0 +1,13 @@
+/* Media query for mobile large (max-width: 767px) */
+@media (max-width: 768px) { .arrow-icon {
+    position: absolute;
+    z-index: 1000;
+    left: 44.3vw;
+    top: 92vh;
+    animation: bounce 1s infinite;
+  }
+}
+
+/* Media query for mobile medium (max-width: 375px) */
+@media (max-width: 375px) {
+}
