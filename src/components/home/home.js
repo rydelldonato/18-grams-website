@@ -16,16 +16,16 @@ export default function Home() {
       <Header />
       <a href='https://www.instagram.com/18grams.916/'>
         <div>
-          <img width="100%" src='./o.jpg' />
+          <img alt='store logo' width="100%" src='./o.jpg' />
         </div>
       </a>
       <div className='headLineContainer'>
           <p>Midtown-Inspired</p>
-          <img src='./icons-coffee.png' />
+          <img alt='coffee icon' src='./icons-coffee.png' />
           <p>Crafted In-House</p>
-          <img src='./icons-coffee.png' />
+          <img alt='coffee icon' src='./icons-coffee.png' />
           <p>Sip-Worthy</p>
-          <img src='./icons-coffee.png' />
+          <img alt='coffee icon' src='./icons-coffee.png' />
       </div>
       
       {/* The arrow icon that scrolls to the target div */}

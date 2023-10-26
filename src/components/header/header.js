@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./header.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Header() {
   const [isChange, setIsChange] = useState(false);
@@ -36,7 +35,7 @@ export default function Header() {
           <a href="https://www.instagram.com/18grams.916/">CONTACT</a>
           <div className="socialLine"></div>
           <a href="https://www.instagram.com/18grams.916/">
-            <img src="./icons-instagram.png" />
+            < img alt="instagram icon" src="./icons-instagram.png" />
           </a>
         </div>
       </div>
