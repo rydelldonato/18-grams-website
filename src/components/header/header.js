@@ -35,7 +35,9 @@ export default function Header() {
           <a href="https://www.instagram.com/18grams.916/">ORDER PICKUP</a>
           <a href="https://www.instagram.com/18grams.916/">CONTACT</a>
           <div className="socialLine"></div>
-          <FontAwesomeIcon icon="fa-brands fa-square-instagram" />
+          <a href="https://www.instagram.com/18grams.916/">
+            <img src="./icons-instagram.png" />
+          </a>
         </div>
       </div>
     </>
