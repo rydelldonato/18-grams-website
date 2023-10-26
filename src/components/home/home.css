@@ -22,7 +22,7 @@
     position: absolute;
     z-index: 1000;
     left: 44.3vw;
-    top: 20vh;
+    top: 92vh;
     animation: bounce 1s infinite;
   }
 }
