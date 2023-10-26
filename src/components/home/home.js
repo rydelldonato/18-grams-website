@@ -5,7 +5,11 @@ export default function Home() {
   return (
     <>
     <Header/>
-    Home
+    <a>
+      <div>
+      <img width={"100%"} src='./o.jpg'/>
+      </div>
+      </a>
     </>
   )
 }
