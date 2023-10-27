@@ -21,11 +21,10 @@ export default function Home() {
         <img alt="coffee icon" src="./icons-coffee.png" />
       </div>
       <DownArrow targetDivId="target-div" />
-      <div style={{ height: "1000px" }}></div>
+      <div style={{ height: "296px" }}></div>
       
       <div id="target-div">
-        
-        here's the content
+        <img className="foodAndDrinks" alt="food and drinks" src="./food-and-drinks.png"/>
       </div>
     </>
   );

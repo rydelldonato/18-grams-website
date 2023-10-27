@@ -25,6 +25,9 @@
     top: 92vh;
     animation: bounce 1s infinite;
   }
+  .foodAndDrinks{
+    width: 100%;
+  }
 }
 
 /* Media query for mobile medium (max-width: 375px) */
