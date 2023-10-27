@@ -6,6 +6,7 @@ import DownArrow from "../downArrow/downArrow";
 export default function Home() {
   return (
     <>
+    <div style={{height:'100vh'}}>
       <Header />
       <a href="https://www.instagram.com/18grams.916/">
         <div>
@@ -22,10 +23,14 @@ export default function Home() {
       </div>
       <DownArrow targetDivId="target-div" />
       <div style={{ height: "296px" }}></div>
-      
       <div id="target-div">
-        <img className="foodAndDrinks" alt="food and drinks" src="./food-and-drinks.png"/>
+        <img className="canva" alt="food and drinks" src="./page1.png"/>
+        <img className="canva" alt="food and drinks" src="./page2.png"/>
+        <img className="canva" alt="food and drinks" src="./page3.png"/>
+        <img className="canva" alt="food and drinks" src="./page4.png"/>
+        <img className="canva" alt="food and drinks" src="./page5.png"/>
       </div>
+    </div>
     </>
   );
 }
