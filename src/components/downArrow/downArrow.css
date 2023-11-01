@@ -1,10 +1,10 @@
 /* Media query for mobile large (max-width: 767px) */
 @media (max-width: 768px) { .arrow-icon {
-    position: absolute;
-    z-index: 1000;
-    left: 44.3vw;
-    top: 92vh;
-    animation: bounce 1s infinite;
+  position: absolute;
+  z-index: 1000;
+  left: 44.3vw;
+  top: 111vh;
+  animation: bounce 1s infinite;
   }
 }
 

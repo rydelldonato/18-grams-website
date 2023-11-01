@@ -24,11 +24,11 @@ export default function Home() {
       <DownArrow targetDivId="target-div" />
       <div style={{ height: "296px" }}></div>
       <div id="target-div">
-        <img className="canva" alt="food and drinks" src="./page1.png"/>
-        <img className="canva" alt="food and drinks" src="./page2.png"/>
-        <img className="canva" alt="food and drinks" src="./page3.png"/>
-        <img className="canva" alt="food and drinks" src="./page4.png"/>
-        <img className="canva" alt="food and drinks" src="./page5.png"/>
+        <img className="canva" alt="food and drinks" src="./page1.gif"/>
+        <img className="canva" alt="food and drinks" src="./page2.gif"/>
+        <img className="canva" alt="food and drinks" src="./page3.gif"/>
+        <img className="canva" alt="food and drinks" src="./page4.gif"/>
+        <img className="canva" alt="food and drinks" src="./page5.gif"/>
       </div>
     </div>
     </>
