@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"; // Import Link
 import "./header.css";
 
 export default function Header() {
@@ -26,16 +27,17 @@ export default function Header() {
       </div>
       <div className="menuContainer">
         <div className={`vertical-menu ${isChange ? "show" : ""}`}>
-          <a href="https://www.instagram.com/18grams.916/" className="active">
+        <div className="socialLine"></div>
+          <Link to="/hoursandlocation"> 
             HOURS & LOCATIONS
-          </a>
-          <a href="https://www.instagram.com/18grams.916/">MENUS</a>
-          <a href="https://www.instagram.com/18grams.916/">OUR STORY</a>
-          <a href="https://www.instagram.com/18grams.916/">ORDER PICKUP</a>
-          <a href="https://www.instagram.com/18grams.916/">CONTACT</a>
+          </Link>
+          <Link to="/menus">MENUS</Link>
+          <Link to="/ourstory">OUR STORY</Link>
+          <Link to="/orderpickup">ORDER PICKUP</Link>
+          <Link to="/contact">CONTACT</Link>
           <div className="socialLine"></div>
           <a href="https://www.instagram.com/18grams.916/">
-            < img alt="instagram icon" src="./icons-instagram.png" />
+            <img alt="instagram icon" src="./icons-instagram.png" />
           </a>
         </div>
       </div>
