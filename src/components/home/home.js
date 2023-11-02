@@ -10,7 +10,7 @@ export default function Home() {
       <Header />
       <a href="https://www.instagram.com/18grams.916/">
         <div>
-          <img alt="store logo" width="100%" src="./o.jpg" />
+          <img alt="store logo" width="90%" src="./o.jpg" />
         </div>
       </a>
       <div className="headLineContainer">
