@@ -1,0 +1,10 @@
+/* Add responsive CSS in your stylesheet */
+.slideshow-container {
+    width: 100%;
+  }
+  
+  .slide {
+    max-width: 100%;
+    height: auto;
+  }
+  
