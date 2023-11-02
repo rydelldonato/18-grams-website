@@ -6,7 +6,7 @@
     /* margin-left: 10%; */
     /* margin-right: 10%; */
     font-size: 0.7rem;
-    width: 100vw;
+    width: 100%;
   }
   .topHeader p{
     width: 45%;
@@ -17,6 +17,7 @@
   }
 .menuBarsContainer{
     margin-top: 4px;
+    
 }
   .bar1,
   .bar2,
