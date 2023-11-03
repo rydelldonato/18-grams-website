@@ -1,10 +1,28 @@
-/* Add responsive CSS in your stylesheet */
-.slideshow-container {
+@import "react-slideshow-image/dist/styles.css";
+
+/* Media query for mobile large (max-width: 767px) */
+@media (max-width: 768px) {
+  .slide-container {
     width: 100%;
   }
-  
-  .slide {
-    max-width: 100%;
-    height: auto;
+
+  .slide-span {
+    padding: 20px;
+    background: #efefef;
+    color: #000000;
   }
-  
+
+  .slide-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    max-width: 100%; /* Set the maximum width to 100% */
+    margin: 0 auto; /* Center the element horizontally */
+    height: 400px;
+  }
+}
+
+/* Media query for mobile medium (max-width: 375px) */
+@media (max-width: 375px) {
+}
