@@ -1,5 +1,5 @@
 import React from "react";
-import { Slide } from "react-slideshow-image";
+import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import "./slideshow.css";
 
@@ -20,20 +20,29 @@ const slideImages = [
 
 const Slideshow = () => {
   return (
+    <>
     <div className="slide-container">
-      <Slide>
+      <Fade>
         {slideImages.map((slideImage, index) => (
-          <div key={index}>
+          <div className="slideshowSlider" key={index}>
             <div
               className="slide-div"
               style={{ backgroundImage: `url(${slideImage.url})` }}
             >
               <span className="slide-span">{slideImage.caption}</span>
             </div>
+            <span>
+            </span>
+              <ul className="slick-dots">
+                <li className={index === 0 ? "active" : ""} id={index}><button></button></li>
+                <li className={index === 1 ? "active" : ""} id={index}><button></button></li>
+                <li className={index === 2 ? "active" : ""} id={index}><button></button></li>
+              </ul>
           </div>
         ))}
-      </Slide>
+      </Fade>
     </div>
+    </>
   );
 };
 
