@@ -105,6 +105,9 @@
     padding: 0;
     margin: 0;
   }
+  .react-slideshow-container .nav {
+    display: none;
+  }
 }
 
 /* Media query for mobile medium (max-width: 375px) */
