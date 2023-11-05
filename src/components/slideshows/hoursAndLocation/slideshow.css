@@ -109,6 +109,14 @@
   .react-slideshow-container .nav {
     display: none;
   }
+  .coffee-icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+  }
+  .text{
+    font-family: 'Fira Sans', sans-serif;
+  }
 }
 
 /* Media query for mobile medium (max-width: 375px) */

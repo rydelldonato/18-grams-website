@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import "./slideshow.css";
+import DownArrow from "../../downArrow/downArrow";
 
 const slideImages = [
   {
@@ -32,6 +33,7 @@ const Slideshow = () => {
 
   return (
     <>
+    <DownArrow targetDivId="target-div"/>
       <div className="slide-container">
         <Fade ref={slideRef}>
           {slideImages.map((slideImage, index) => (
@@ -55,6 +57,19 @@ const Slideshow = () => {
             </div>
           ))}
         </Fade>
+      </div>
+      <div id="target-div">
+        <h1>Hours & Location</h1>
+        <div className="coffee-icons">
+          <img alt="coffeeicon" src="/icons-coffee.png"/>
+          <img alt="coffeeicon" src="/icons-coffee.png"/>
+          <img alt="coffeeicon" src="/icons-coffee.png"/>
+        </div>
+        <p>Open everyday of the week!</p>
+        <p>1600 Ethan Way Ste 30, Sacramento, CA 95825</p>
+        <p>M-W 8AM-2PM, TH-Sun 8AM-8PM</p>
+        <p>9677 E Stockton Blvd, Elk Grove, CA 95624</p>
+        <p>7AM-5PM</p>
       </div>
     </>
   );
