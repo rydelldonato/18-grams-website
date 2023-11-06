@@ -7,12 +7,10 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <ScrollToTop/>
+        <ScrollToTop />
         <Routes>
-          <Route exact path="/" element={<Home/>} />
-        </Routes>
-        <Routes>
-          <Route exact path="/hoursandlocation" element={<HoursAndLocation/>} />
+          <Route path="/" element={<Home />} />
+          <Route path="/hoursandlocation" element={<HoursAndLocation />} />
         </Routes>
       </div>
     </BrowserRouter>
