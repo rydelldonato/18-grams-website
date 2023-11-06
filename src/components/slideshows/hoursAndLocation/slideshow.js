@@ -22,6 +22,8 @@ const slideImages = [
   },
 ];
 
+const isMobileDevice = /Mobi|Android/i.test(navigator.userAgent);
+
 const Slideshow = () => {
   const slideRef = useRef(null);
 
@@ -80,9 +82,21 @@ const Slideshow = () => {
           <p>Check us out on Yelp!</p>
           <div style={{ height: 20 }}></div>
           <p>
-            <a href="geo:0,0?q=1600 Ethan Way Ste 30, Sacramento, CA 95825">
-              18 Grams Coffee Roasters, 1600 Ethan Way Ste 30, Sacramento, CA 95825
-            </a>
+            {isMobileDevice ? (
+              <a
+                href="geo:0,0?q=1600 Ethan Way Ste 30, Sacramento, CA 95825"
+              >
+                18 Grams Coffee Roasters, 1600 Ethan Way Ste 30, Sacramento, CA 95825
+              </a>
+            ) : (
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=1600%20Ethan%20Way%20Ste%2030%2C%20Sacramento%2C%20CA%2095825"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                18 Grams Coffee Roasters, 1600 Ethan Way Ste 30, Sacramento, CA 95825
+              </a>
+            )}
           </p>
           <p>M-W 8AM-2PM, TH-Sun 8AM-8PM</p>
           {/* Yelp Review Embed Code */}
@@ -90,7 +104,7 @@ const Slideshow = () => {
             className="yelp-review"
             data-review-id="zaOSDECRx_6YO30jJf0fRw"
             data-hostname="www.yelp.com"
-            style={{height: 50}}
+            style={{ height: 50 }}
           >
             Read <a href="https://www.yelp.com/user_details?userid=CNl758-IFadffzzaKH9eUw" rel="nofollow noopener">Athena M.</a>'s <a href="https://www.yelp.com/biz/18-grams-coffee-roasters-sacramento?hrid=zaOSDECRx_6YO30jJf0fRw" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/rtF0Mvs6iScYR9oBueQrtA" rel="nofollow noopener">18 Grams Coffee Roasters</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a>
           </span>
