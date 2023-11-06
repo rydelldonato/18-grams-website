@@ -92,7 +92,6 @@
     position: absolute;
     z-index: 3;
   }
-
   .active {
     background: tan;
     border: 1px solid #fff;
@@ -116,6 +115,9 @@
   .hoursAndLocations{
     display: flex;
     flex-direction: column;
+  }
+  a{
+    color: black;
   }
 }
 

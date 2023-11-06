@@ -71,9 +71,7 @@ const Slideshow = () => {
           <div style={{ height: 20 }}></div>
           <p>
             <a
-              href="https://www.google.com/maps/search/?api=1&query=1600%20Ethan%20Way%20Ste%2030%2C%20Sacramento%2C%20CA%2095825"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="geo:0,0?q=1600 Ethan Way Ste 30, Sacramento, CA 95825"
             >
               18 Grams Coffee Roasters, 1600 Ethan Way Ste 30, Sacramento, CA 95825
             </a>
@@ -82,9 +80,7 @@ const Slideshow = () => {
           <div style={{ height: 15 }}></div>
           <p>
             <a
-              href="https://www.google.com/maps/search/?api=1&query=9677%20E%20Stockton%20Blvd%2C%20Elk%20Grove%2C%20CA%2095624"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="geo:0,0?q=9677 E Stockton Blvd, Elk Grove, CA 95624"
             >
               18 Grams Coffee & Tea, 9677 E Stockton Blvd, Elk Grove, CA 95624
             </a>
