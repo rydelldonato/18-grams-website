@@ -74,7 +74,7 @@ const Slideshow = () => {
         <h1>Hours & Location</h1>
         <div className="coffee-icons">
           <img alt="coffeeicon" src="/icons-coffee.png" />
-          <img alt="coffeeicon" src="/icons-coffee.png" />
+          <img alt="coffeeicon" src "/icons-coffee.png" />
           <img alt="coffeeicon" src="/icons-coffee.png" />
         </div>
         <div className="hoursAndLocations">
