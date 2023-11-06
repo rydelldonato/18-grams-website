@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import "./slideshow.css";
@@ -26,9 +26,22 @@ const Slideshow = () => {
   const slideRef = useRef(null);
 
   const handleDotClick = (index) => {
-    // Move the slideshow to the specified index
     slideRef.current.goTo(index);
   };
+
+  // Function to load Yelp review script
+  const loadYelpReviewScript = () => {
+    const script = document.createElement("script");
+    script.src = "https://www.yelp.com/embed/widgets.js";
+    script.type = "text/javascript";
+    script.async = true;
+    document.body.appendChild(script);
+  };
+
+  // Load Yelp review script when the component mounts
+  useEffect(() => {
+    loadYelpReviewScript();
+  }, []);
 
   return (
     <>
@@ -47,9 +60,7 @@ const Slideshow = () => {
                     key={buttonIndex}
                     className={buttonIndex === index ? "active" : ""}
                   >
-                    <button
-                      onClick={() => handleDotClick(buttonIndex)}
-                    ></button>
+                    <button onClick={() => handleDotClick(buttonIndex)}></button>
                   </li>
                 ))}
               </ul>
@@ -67,23 +78,21 @@ const Slideshow = () => {
         <div className="hoursAndLocations">
           <p>Open every day of the week!</p>
           <div style={{ height: 20 }}></div>
+          {/* Yelp Review Embed Code */}
+          <span
+            className="yelp-review"
+            data-review-id="zaOSDECRx_6YO30jJf0fRw"
+            data-hostname="www.yelp.com"
+          >
+            Read <a href="https://www.yelp.com/user_details?userid=CNl758-IFadffzzaKH9eUw" rel="nofollow noopener">Athena M.</a>'s <a href="https://www.yelp.com/biz/18-grams-coffee-roasters-sacramento?hrid=zaOSDECRx_6YO30jJf0fRw" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/rtF0Mvs6iScYR9oBueQrtA" rel="nofollow noopener">18 Grams Coffee Roasters</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a>
+          </span>
           <p>
-            <a
-              href="geo:0,0?q=1600 Ethan Way Ste 30, Sacramento, CA 95825"
-            >
+            <a href="geo:0,0?q=1600 Ethan Way Ste 30, Sacramento, CA 95825">
               18 Grams Coffee Roasters, 1600 Ethan Way Ste 30, Sacramento, CA 95825
             </a>
           </p>
           <p>M-W 8AM-2PM, TH-Sun 8AM-8PM</p>
           <div style={{ height: 15 }}></div>
-          <p>
-            <a
-              href="geo:0,0?q=9677 E Stockton Blvd, Elk Grove, CA 95624"
-            >
-              18 Grams Coffee & Tea, 9677 E Stockton Blvd, Elk Grove, CA 95624
-            </a>
-          </p>
-          <p>7AM-5PM</p>
         </div>
       </div>
     </>
