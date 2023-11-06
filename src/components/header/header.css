@@ -72,17 +72,16 @@
     color: white;
   }
   .menuContainer {
-      position: fixed;
-      height: 100vh;
-      top: 52px;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: 999; /* Set a high z-index to keep it on top */
-      display: flex;
-      justify-content: center;
-      align-items: center; /* Vertically center content */
-      flex-direction: column; /* Center content vertically */
+    position: absolute;
+    height: 42vh;
+    top: 445px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     }
   
   .socialLine{

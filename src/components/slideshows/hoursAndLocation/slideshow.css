@@ -44,8 +44,6 @@
     margin: 0;
     width: 100%;
     text-align: center;
-    z-index: 999;
-
   }
   ul {
     display: block;
@@ -91,6 +89,8 @@
     margin: 0;
     line-height: inherit;
     border-radius: 0;
+    position: absolute;
+    z-index: 3;
   }
 
   .slick-dots button:hover {
@@ -116,6 +116,10 @@
   }
   .text{
     font-family: 'Fira Sans', sans-serif;
+  }
+  .hoursAndLocations{
+    display: flex;
+    flex-direction: column;
   }
 }
 

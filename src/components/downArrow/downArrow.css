@@ -1,7 +1,7 @@
 /* Media query for mobile large (max-width: 767px) */
 @media (max-width: 768px) { .arrow-icon {
   position: absolute;
-  z-index: 1000;
+  /* z-index: 1000; */
   left: 44.3vw;
   top: 97vh;
   animation: bounce 1.5s infinite;

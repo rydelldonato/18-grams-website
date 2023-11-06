@@ -20,7 +20,7 @@
   
   .arrow-icon {
     position: absolute;
-    z-index: 1000;
+    z-index: 999;
     left: 44.3vw;
     top: 111vh;
     animation: bounce 1s infinite;
