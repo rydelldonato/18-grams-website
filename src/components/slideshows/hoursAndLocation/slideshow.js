@@ -49,7 +49,9 @@ const Slideshow = () => {
                     key={buttonIndex}
                     className={buttonIndex === index ? "active" : ""}
                   >
-                    <button onClick={() => handleDotClick(buttonIndex)}></button>
+                    <button
+                      onClick={() => handleDotClick(buttonIndex)}
+                    ></button>
                   </li>
                 ))}
               </ul>
@@ -66,9 +68,27 @@ const Slideshow = () => {
         </div>
         <div className="hoursAndLocations">
           <p>Open every day of the week!</p>
-          <p>1600 Ethan Way Ste 30, Sacramento, CA 95825</p>
+          <div style={{ height: 20 }}></div>
+          <p>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=1600%20Ethan%20Way%20Ste%2030%2C%20Sacramento%2C%20CA%2095825"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              18 Grams Coffee Roasters, 1600 Ethan Way Ste 30, Sacramento, CA 95825
+            </a>
+          </p>
           <p>M-W 8AM-2PM, TH-Sun 8AM-8PM</p>
-          <p>9677 E Stockton Blvd, Elk Grove, CA 95624</p>
+          <div style={{ height: 15 }}></div>
+          <p>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=9677%20E%20Stockton%20Blvd%2C%20Elk%20Grove%2C%20CA%2095624"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              18 Grams Coffee & Tea, 9677 E Stockton Blvd, Elk Grove, CA 95624
+            </a>
+          </p>
           <p>7AM-5PM</p>
         </div>
       </div>
