@@ -84,7 +84,7 @@ const Slideshow = () => {
           <p>
             {isMobileDevice ? (
               <a
-                href="geo:0,0?q=1600 Ethan Way Ste 30, Sacramento, CA 95825"
+                href="geo:0,0?q=1600+Ethan+Way+Ste+30,+Sacramento,+CA+95825"
               >
                 1600 Ethan Way Ste 30, Sacramento, CA 95825
               </a>
