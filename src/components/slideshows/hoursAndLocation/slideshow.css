@@ -116,8 +116,10 @@
     display: flex;
     flex-direction: column;
   }
-  a{
+  .hoursAndLocations a{
     color: black;
+    position: relative;
+    z-index: 2;
   }
   
 }
