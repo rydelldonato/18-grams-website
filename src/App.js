@@ -10,6 +10,8 @@ function App() {
         <ScrollToTop/>
         <Routes>
           <Route exact path="/" element={<Home/>} />
+        </Routes>
+        <Routes>
           <Route exact path="/hoursandlocation" element={<HoursAndLocation/>} />
         </Routes>
       </div>
