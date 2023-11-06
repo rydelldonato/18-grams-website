@@ -93,10 +93,6 @@
     z-index: 3;
   }
 
-  .slick-dots button:hover {
-    background: #fff;
-  }
-
   .active {
     background: tan;
     border: 1px solid #fff;
