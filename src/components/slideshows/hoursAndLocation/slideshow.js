@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import "./slideshow.css";
-import DownArrow from "../../downArrow/downArrow";
 
 const slideImages = [
   {
@@ -33,7 +32,6 @@ const Slideshow = () => {
 
   return (
     <>
-      <DownArrow targetDivId="target-div" />
       <div className="slide-container">
         <Fade ref={slideRef}>
           {slideImages.map((slideImage, index) => (
@@ -59,7 +57,7 @@ const Slideshow = () => {
           ))}
         </Fade>
       </div>
-      <div id="target-div">
+      <div>
         <h1>Hours & Location</h1>
         <div className="coffee-icons">
           <img alt="coffeeicon" src="/icons-coffee.png" />
