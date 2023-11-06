@@ -86,7 +86,7 @@ const Slideshow = () => {
               <a
                 href="geo:0,0?q=1600 Ethan Way Ste 30, Sacramento, CA 95825"
               >
-                18 Grams Coffee Roasters, 1600 Ethan Way Ste 30, Sacramento, CA 95825
+                1600 Ethan Way Ste 30, Sacramento, CA 95825
               </a>
             ) : (
               <a
@@ -94,7 +94,7 @@ const Slideshow = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                18 Grams Coffee Roasters, 1600 Ethan Way Ste 30, Sacramento, CA 95825
+                1600 Ethan Way Ste 30, Sacramento, CA 95825
               </a>
             )}
           </p>
