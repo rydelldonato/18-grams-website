@@ -60,7 +60,7 @@ export default function HoursAndLocation() {
           }}
           className="getDirectionsButton"
         >
-          <button onClick={() => handleDirectionsButton()}>
+          <button style={{padding: '10px 50px 10px 50px',fontSize: '20px' }} onClick={() => handleDirectionsButton()}>
             Get Directions
           </button>
         </div>
