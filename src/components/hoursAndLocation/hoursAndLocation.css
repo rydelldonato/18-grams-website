@@ -16,8 +16,12 @@
     }
     .hoursAndLocations a{
       color: black;
-      position: relative;
+      position: static;
       z-index: 2;
+    }
+    div.getDirectionsButton{
+      margin-bottom: 20px;
+      background-color: red;
     }
     
   }
