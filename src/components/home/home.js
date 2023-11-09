@@ -11,7 +11,7 @@ export default function Home() {
         <div className="topHomeSection">
           <a href="https://www.instagram.com/18grams.916/">
             <div className="storeLogo">
-              <img alt="store logo" width="90%" src="./o.jpg" />
+              <img alt="store logo" width="90%" src="./crop.png" />
             </div>
           </a>
           <div className="headLineContainer">

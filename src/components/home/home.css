@@ -17,6 +17,9 @@
   .storeLogo{
     padding: 10px;
   }
+  .storeLogo img{
+    border-radius: 180px;
+  }
   @keyframes bounce {
     0%,
     100% {
