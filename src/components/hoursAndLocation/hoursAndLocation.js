@@ -3,12 +3,12 @@ import Header from "../header/header";
 import Slideshow from "../slideshows/hoursAndLocation/slideshow";
 
 export default function HoursAndLocation() {
-const isMobileDevice = /Mobi|Android/i.test(navigator.userAgent);
+  const isMobileDevice = /Mobi|Android/i.test(navigator.userAgent);
 
   return (
     <>
       <Header />
-      <Slideshow/>
+      <Slideshow />
       <div>
         <h1>Hours & Location</h1>
         <div className="coffee-icons">
@@ -23,7 +23,7 @@ const isMobileDevice = /Mobi|Android/i.test(navigator.userAgent);
           <p>
             {isMobileDevice ? (
               <a
-                href="geo:0,0?q=1600+Ethan+Way+Ste+30,+Sacramento,+CA+95825"
+                href="maps:?q=1600+Ethan+Way+Ste+30,+Sacramento,+CA+95825"
               >
                 1600 Ethan Way Ste 30, Sacramento, CA 95825
               </a>
