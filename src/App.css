@@ -1,5 +1,11 @@
 .App {
   text-align: center;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Alyssum';
+
+}
+@font-face{
+  font-family: 'Alyssum';
+  src: url('/public/fonts/Alyssum-Sans.woff') format('woff'),
+  url('/public/fonts/Alyssum-Sans.woff2') format('woff2');
 
 }

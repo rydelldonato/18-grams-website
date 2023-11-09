@@ -9,15 +9,26 @@
     justify-content: center;
     align-items: center;
   }
+  .topHomeSection {
+    background-color: #fff5ec;
+    padding: 10;
+    height: 587;
+  }
+  .storeLogo{
+    padding: 10px;
+  }
   @keyframes bounce {
-    0%, 100% {
+    0%,
+    100% {
       transform: translateY(0);
     }
     50% {
-      transform: translateY(-10px); /* Adjust the value to control the bounce height */
+      transform: translateY(
+        -10px
+      ); /* Adjust the value to control the bounce height */
     }
   }
-  
+
   .arrow-icon {
     position: absolute;
     z-index: 999;
@@ -25,7 +36,7 @@
     top: 111vh;
     animation: bounce 1s infinite;
   }
-  .canva{
+  .canva {
     width: 100%;
     display: block;
   }
