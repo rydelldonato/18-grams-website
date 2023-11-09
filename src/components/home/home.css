@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 42px;
   }
   .topHomeSection {
     background-color: #fff5ec;
@@ -16,6 +17,7 @@
   }
   .storeLogo{
     padding: 10px;
+    height: 315px;
   }
   .storeLogo img{
     border-radius: 180px;
