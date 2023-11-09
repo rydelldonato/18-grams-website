@@ -22,7 +22,6 @@ export default function Home() {
         <img alt="coffee icon" src="./icons-coffee.png" />
       </div>
       <DownArrow targetDivId="target-div" />
-      <div style={{ height: "296px" }}></div>
       <div id="target-div">
         <img className="canva" alt="food and drinks" src="./page1.gif"/>
         <img className="canva" alt="food and drinks" src="./page2.gif"/>
