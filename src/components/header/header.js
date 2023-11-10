@@ -27,6 +27,9 @@ export default function Header() {
       <div className="menuContainer">
         <div className={`vertical-menu ${isChange ? "show" : ""}`}>
         <div className="socialLine"></div>
+          <Link to="/"> 
+            HOME
+          </Link>
           <Link to="/hoursandlocation"> 
             HOURS & LOCATIONS
           </Link>
