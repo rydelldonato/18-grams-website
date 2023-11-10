@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Header from "../header/header";
 import Slideshow from "../slideshows/hoursAndLocation/slideshow";
 
@@ -22,6 +22,20 @@ export default function HoursAndLocation() {
     }
   }
 
+  // Function to load Yelp review script
+  const loadYelpReviewScript = () => {
+    const script = document.createElement("script");
+    script.src = "https://www.yelp.com/embed/widgets.js";
+    script.type = "text/javascript";
+    script.async = true;
+    document.body.appendChild(script);
+  };
+
+  // Load Yelp review script when the component mounts
+  useEffect(() => {
+    loadYelpReviewScript();
+  }, []);
+
   return (
     <>
       <Header />
@@ -40,14 +54,14 @@ export default function HoursAndLocation() {
           <p>1600 Ethan Way Ste 30, Sacramento, CA 95825</p>
           <p>M-W 8AM-2PM, TH-Sun 8AM-8PM</p>
           {/* Yelp Review Embed Code */}
-          {/* <span
+          <span
             className="yelp-review"
             data-review-id="zaOSDECRx_6YO30jJf0fRw"
             data-hostname="www.yelp.com"
             style={{ height: 50 }}
           >
             Read <a href="https://www.yelp.com/user_details?userid=CNl758-IFadffzzaKH9eUw" rel="nofollow noopener">Athena M.</a>'s <a href="https://www.yelp.com/biz/18-grams-coffee-roasters-sacramento?hrid=zaOSDECRx_6YO30jJf0fRw" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/rtF0Mvs6iScYR9oBueQrtA" rel="nofollow noopener">18 Grams Coffee Roasters</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a>
-          </span> */}
+          </span>
           <div style={{ height: 15 }}></div>
         </div>
         <div

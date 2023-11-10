@@ -30,20 +30,7 @@ const Slideshow = () => {
     slideRef.current.goTo(index);
   };
 
-  // Function to load Yelp review script
-  const loadYelpReviewScript = () => {
-    const script = document.createElement("script");
-    script.src = "https://www.yelp.com/embed/widgets.js";
-    script.type = "text/javascript";
-    script.async = true;
-    document.body.appendChild(script);
-  };
-
-  // Load Yelp review script when the component mounts
-  useEffect(() => {
-    loadYelpReviewScript();
-  }, []);
-
+  
   return (
     <>
       <div className="slide-container">
