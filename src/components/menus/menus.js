@@ -6,11 +6,11 @@ import Slideshow from "../slideshows/hoursAndLocation/slideshow";
 export default function Menus() {
   const slideImages = [
     {
-      url: "./foodAssortion.jpg",
+      url: "./ubeToast.jpg",
       caption: "Slide 1",
     },
     {
-      url: "./karage.jpg",
+      url: "./foodAssortion.jpg",
       caption: "Slide 2",
     },
     {
@@ -18,7 +18,7 @@ export default function Menus() {
       caption: "Slide 3",
     },
     {
-      url: "./longoBowl.jpg",
+      url: "./karage.jpg",
       caption: "Slide 4",
     },
   ];
