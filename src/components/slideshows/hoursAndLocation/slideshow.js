@@ -1,29 +1,13 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef } from "react";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import "./slideshow.css";
 
-const slideImages = [
-  {
-    url: "./frontCounter.jpg",
-    caption: "Slide 1",
-  },
-  {
-    url: "./lineView.jpg",
-    caption: "Slide 2",
-  },
-  {
-    url: "./murals.jpg",
-    caption: "Slide 3",
-  },
-  {
-    url: "./outsideView.jpg",
-    caption: "Slide 4",
-  },
-];
 
 
-const Slideshow = () => {
+
+const Slideshow = (props) => {
+  const {slideImages} = props
   const slideRef = useRef(null);
 
   const handleDotClick = (index) => {
