@@ -19,6 +19,10 @@
     margin-top: 5px;
     padding-top: 15px;
   }
+  .menuButtons button{
+    padding: 10px 20px;
+    color: black;
+  }
   .topDiv {
     background-color: #bbb5ad;
     padding: 10px;
