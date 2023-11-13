@@ -60,12 +60,12 @@ export default function Menus() {
         <p>
           We serve <span>drinks every day of the week </span>
           <br></br>
-          <span>M-W from 8AM-2PM</span> // TH-SUN from 8AM-8PM
+          <span>M-W from 8AM-2PM</span> * TH-SUN from 8AM-8PM
         </p>
         <p>
           We serve <span>brunch</span>
           <br></br>
-          <span>T-W from 8AM-2PM</span> // TH-SUN from 8AM-6PM
+          <span>T-W from 8AM-2PM</span> * TH-SUN from 8AM-6PM
           <br></br>
           (last call at 5:30pm)
         </p>
