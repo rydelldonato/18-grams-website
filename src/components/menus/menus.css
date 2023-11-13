@@ -24,9 +24,18 @@
     padding: 10px 50px;
     margin-left: 20px;
   }
-  .middleDiv{
-    margin-top: 54vh;
+  .middleDivWelcomeMessage{
+    line-height: 25px;
   }
+  .middleDivHours{
+    margin-top: 40px;
+  }
+  .middleDiv span {
+    white-space: nowrap;
+  }
+  /* .menuDiv{
+    margin-top: 54vh;
+  } */
 }
 
 /* Media query for mobile medium (max-width: 375px) */

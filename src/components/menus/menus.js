@@ -4,7 +4,7 @@ import Header from "../header/header";
 import Slideshow from "../slideshows/hoursAndLocation/slideshow";
 import MenuLayout from "./menuLayout";
 import drinks from "./drinks/drinks";
-import brunch from "./brunch/brunch"; 
+import brunch from "./brunch/brunch";
 
 export default function Menus() {
   const [menu, setMenu] = useState(drinks); // Set the initial menu to drinks
@@ -49,9 +49,45 @@ export default function Menus() {
         </div>
       </div>
       <div className="middleDiv">
+        <h2>Welcome to Our Café and Brunch Menu</h2>
+        <div className="middleDivWelcomeMessage">
+        <p>
+          Indulge in our delightful selection of beverages and brunch options.
+          We strive to create a warm and inviting atmosphere for you to enjoy
+          delicious treats with friends and family.
+        </p>
+        <div className="middleDivHours">
+        <p>
+          We serve <span>drinks every day of the week </span>
+          <br></br>
+          <span>M-W from 8AM-2PM</span> // TH-SUN from 8AM-8PM
+        </p>
+        <p>
+          We serve <span>brunch</span>
+          <br></br>
+          <span>T-W from 8AM-2PM</span> // TH-SUN from 8AM-6PM
+          <br></br>
+          (last call at 5:30pm)
+        </p>
+        </div>
+        </div>
+      </div>
+      <div className="menuDiv">
         <div className="menuButtons">
-          <button onClick={() => handleMenuButtons("drinksButton")} id="drinksButton" className="buttons">Drinks</button>
-          <button onClick={() => handleMenuButtons("brunchButton")} id="brunchButton" className="buttons">Brunch</button>
+          <button
+            onClick={() => handleMenuButtons("drinksButton")}
+            id="drinksButton"
+            className="buttons"
+          >
+            Drinks
+          </button>
+          <button
+            onClick={() => handleMenuButtons("brunchButton")}
+            id="brunchButton"
+            className="buttons"
+          >
+            Brunch
+          </button>
         </div>
         <MenuLayout menu={menu} />
       </div>
