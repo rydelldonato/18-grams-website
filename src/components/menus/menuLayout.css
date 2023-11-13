@@ -1,0 +1,15 @@
+.menuItemDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.categoryDiv{
+    display: flex;
+    justify-content: center;
+}
+.category {
+  text-decoration: underline;
+  margin-right: 25px;
+}
