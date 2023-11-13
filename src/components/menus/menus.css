@@ -16,7 +16,8 @@
     justify-content: center;
   }
   .menuButtons {
-    margin-top: 10vh;
+    margin-top: 5px;
+    padding-top: 15px;
   }
   .topDiv {
     background-color: #bbb5ad;
@@ -27,8 +28,11 @@
     margin-left: 20px;
   }
   .middleDiv {
-    background-color: #b1a294;
+    background-color: #385B4F;
     padding: 10px;
+    margin-top: 5px;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
   }
   .middleDivWelcomeMessage {
     line-height: 25px;
@@ -39,9 +43,9 @@
   .middleDiv span {
     white-space: nowrap;
   }
-  /* .menuDiv{
-    margin-top: 54vh;
-  } */
+  .menuDiv{
+    background-color: #d0c7bd
+  }
 }
 
 /* Media query for mobile medium (max-width: 375px) */
