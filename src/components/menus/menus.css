@@ -1,5 +1,8 @@
 /* Media query for mobile large (max-width: 767px) */
 @media (max-width: 768px) {
+  .allContent {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  }
   .menusSpan {
     position: absolute;
     z-index: 2;
@@ -15,19 +18,22 @@
   .menuButtons {
     margin-top: 10vh;
   }
-  .topDiv{
-    background-color: #EEE8DB;
+  .topDiv {
+    background-color: #bbb5ad;
     padding: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   }
   .buttons {
     padding: 10px 50px;
     margin-left: 20px;
   }
-  .middleDivWelcomeMessage{
+  .middleDiv {
+    background-color: #b1a294;
+    padding: 10px;
+  }
+  .middleDivWelcomeMessage {
     line-height: 25px;
   }
-  .middleDivHours{
+  .middleDivHours {
     margin-top: 40px;
   }
   .middleDiv span {
