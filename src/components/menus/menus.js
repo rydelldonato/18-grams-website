@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./menus.css";
 import Header from "../header/header";
 import Slideshow from "../slideshows/hoursAndLocation/slideshow";
+import MenuLayout from "./menuLayout";
+import drinks from "./drinks/drinks";
+import brunch from "./brunch/brunch"; 
 
 export default function Menus() {
+  const [menu, setMenu] = useState(drinks); // Set the initial menu to drinks
   const slideImages = [
     {
       url: "./ubeToast.jpg",
@@ -22,6 +26,15 @@ export default function Menus() {
       caption: "Slide 4",
     },
   ];
+
+  const handleMenuButtons = (id) => {
+    if (id === "drinksButton") {
+      setMenu(drinks);
+    } else if (id === "brunchButton") {
+      setMenu(brunch);
+    }
+  };
+
   return (
     <>
       <Header />
@@ -34,10 +47,13 @@ export default function Menus() {
           </div>
           <Slideshow slideImages={slideImages} />
         </div>
+      </div>
+      <div className="middleDiv">
         <div className="menuButtons">
-          <button className="buttons">Drinks</button>
-          <button className="buttons">Brunch</button>
+          <button onClick={() => handleMenuButtons("drinksButton")} id="drinksButton" className="buttons">Drinks</button>
+          <button onClick={() => handleMenuButtons("brunchButton")} id="brunchButton" className="buttons">Brunch</button>
         </div>
+        <MenuLayout menu={menu} />
       </div>
     </>
   );

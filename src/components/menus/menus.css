@@ -24,6 +24,9 @@
     padding: 10px 50px;
     margin-left: 20px;
   }
+  .middleDiv{
+    margin-top: 42vh;
+  }
 }
 
 /* Media query for mobile medium (max-width: 375px) */
