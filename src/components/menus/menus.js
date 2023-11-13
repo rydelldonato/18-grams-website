@@ -1,5 +1,5 @@
 import React from "react";
-import './menus.css'
+import "./menus.css";
 import Header from "../header/header";
 import Slideshow from "../slideshows/hoursAndLocation/slideshow";
 
@@ -25,11 +25,19 @@ export default function Menus() {
   return (
     <>
       <Header />
-      <div>
-        <div className="menusSpanDiv">
-        <span className="menusSpan"><h1>Menus</h1></span>
+      <div className="topDiv">
+        <div>
+          <div className="menusSpanDiv">
+            <span className="menusSpan">
+              <h1>Menus</h1>
+            </span>
+          </div>
+          <Slideshow slideImages={slideImages} />
         </div>
-        <Slideshow slideImages={slideImages} />
+        <div className="menuButtons">
+          <button className="buttons">Drinks</button>
+          <button className="buttons">Brunch</button>
+        </div>
       </div>
     </>
   );

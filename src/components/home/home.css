@@ -14,6 +14,7 @@
     background-color: #fff5ec;
     padding: 10;
     height: 587;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   }
   .storeLogo{
     padding: 10px;
