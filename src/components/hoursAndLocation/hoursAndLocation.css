@@ -2,6 +2,9 @@
 
 /* Media query for mobile large (max-width: 767px) */
 @media (max-width: 768px) {
+  .allContent{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  }
     .coffee-icons{
       display: flex;
       justify-content: space-evenly;

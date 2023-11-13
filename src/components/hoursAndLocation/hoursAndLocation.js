@@ -1,6 +1,7 @@
 import React,{useEffect} from "react";
 import Header from "../header/header";
 import Slideshow from "../slideshows/hoursAndLocation/slideshow";
+import './hoursAndLocation.css'
 
 export default function HoursAndLocation() {
   const isMobileDevice = /Mobi|Android/i.test(navigator.userAgent);
@@ -57,6 +58,7 @@ export default function HoursAndLocation() {
   return (
     <>
       <Header />
+      <div className="allContent">
       <Slideshow slideImages={slideImages} />
       <div>
         <h1>Hours & Location</h1>
@@ -96,6 +98,7 @@ export default function HoursAndLocation() {
             Get Directions
           </button>
         </div>
+      </div>
       </div>
     </>
   );
