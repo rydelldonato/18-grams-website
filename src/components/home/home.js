@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../header/header";
 import "./home.css";
-import DownArrow from "../downArrow/downArrow";
 
 export default function Home() {
   return (
@@ -22,7 +21,6 @@ export default function Home() {
             <p>Sip-Worthy</p>
             <img alt="coffee icon" src="./icons-coffee.png" />
           </div>
-          <DownArrow targetDivId="target-div" />
           <div id="target-div">
             <img className="canva" alt="food and drinks" src="./page1.gif" />
             <img className="canva" alt="food and drinks" src="./page2.gif" />
