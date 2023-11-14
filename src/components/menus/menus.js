@@ -79,6 +79,7 @@ export default function Menus() {
               onClick={() => handleMenuButtons("drinksButton")}
               id="drinksButton"
               className="buttons"
+              style={{padding: '10px 50px 10px 50px',fontSize: '20px' }}
             >
               Drinks
             </button>
@@ -86,6 +87,7 @@ export default function Menus() {
               onClick={() => handleMenuButtons("brunchButton")}
               id="brunchButton"
               className="buttons"
+              style={{padding: '10px 50px 10px 50px',fontSize: '20px'}}
             >
               Brunch
             </button>
