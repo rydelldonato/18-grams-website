@@ -16,9 +16,11 @@ export default function MenuLayout(props) {
               <h1 className="category">{drink.category}</h1>
             </div>
           ) : null}
+          <div className="titleAndPriceDiv">
           <p className="name">{drink.name}</p>
+          <p className="price">| {drink.price}</p>
+          </div>
           {drink.info && <p className="info">{drink.info}</p>}
-          <p className="price">{drink.price}</p>
         </div>
       ))}
     </>
