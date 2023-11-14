@@ -1,9 +1,39 @@
 const drinks = [
     {
         category:'Traditional',
-        name: 'coffee',
-        info: 'coffee',
+        name: 'House Coffee',
+        info: '',
         price: 2
+    },
+    {
+        category:'Traditional',
+        name: 'Espresso',
+        info: '',
+        price: 4
+    },
+    {
+        category:'Traditional',
+        name: 'Americano',
+        info: '',
+        price: 4
+    },
+    {
+        category:'Traditional',
+        name: 'Cappuccino',
+        info: '',
+        price: 5
+    },
+    {
+        category:'Traditional',
+        name: 'Latte',
+        info: '',
+        price: 5.5
+    },
+    {
+        category:'Traditional',
+        name: 'Cold Brew',
+        info: '',
+        price: 5.5
     },
     {
         category:'House Specials',

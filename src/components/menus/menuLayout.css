@@ -1,15 +1,23 @@
-.menuItemDiv{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.menuItemDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.categoryDiv{
-    display: flex;
-    justify-content: center;
+.categoryDiv {
+  display: flex;
+  justify-content: center;
 }
 .category {
   text-decoration: underline;
   margin-right: 25px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+.name {
+  font-weight: bold;
+}
+.price{
+  font-weight: bold;
 }
