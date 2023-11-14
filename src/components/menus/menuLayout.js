@@ -13,7 +13,7 @@ export default function MenuLayout(props) {
               <div>
                 <img alt="coffee-beans" src="./icons-coffee-beans.png" />
               </div>
-              <h3 className="category">{drink.category}</h3>
+              <h1 className="category">{drink.category}</h1>
             </div>
           ) : null}
           <p className="name">{drink.name}</p>
