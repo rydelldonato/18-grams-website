@@ -8,6 +8,7 @@ import brunch from "./brunch/brunch";
 
 export default function Menus() {
   const [menu, setMenu] = useState(drinks); // Set the initial menu to drinks
+
   const slideImages = [
     {
       url: "./ubeToast.jpg",
@@ -79,7 +80,7 @@ export default function Menus() {
               onClick={() => handleMenuButtons("drinksButton")}
               id="drinksButton"
               className="buttons"
-              style={{padding: '30px 70px 30px 70px',fontSize: '18px' }}
+              style={{fontSize: '18px',padding: '30px 70px 30px 70px'}}
             >
               Drinks
             </button>
@@ -87,7 +88,7 @@ export default function Menus() {
               onClick={() => handleMenuButtons("brunchButton")}
               id="brunchButton"
               className="buttons"
-              style={{padding: '30px 70px 30px 70px',fontSize: '18px'}}
+              style={{fontSize: '18px',padding: '30px 70px 30px 70px'}}
             >
               Brunch
             </button>
