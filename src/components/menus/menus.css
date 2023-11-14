@@ -22,6 +22,7 @@
   }
   .menuButtons button {
     color: black;
+    margin: 5px;
   }
   .topDiv {
     background-color: #bbb5ad;
