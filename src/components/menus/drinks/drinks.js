@@ -84,10 +84,28 @@ const drinks = [
     price: 6,
   },
   {
-    category: "Mocha",
-    name: "tea",
-    info: "tea",
-    price: 2,
+    category: "Mochas",
+    name: "Mocha",
+    info: "Ghiradelli & Ibarra chocolate, espresso and milk",
+    price: 6.2,
+  },
+  {
+    category: "Mochas",
+    name: "Mexican Mocha",
+    info: "Mocha with cinnamon & cayenne",
+    price: 6.2,
+  },
+  {
+    category: "Mochas",
+    name: "Mocha Thai",
+    info: "Mocha with condensed milk",
+    price: 6.2,
+  },
+  {
+    category: "Mochas",
+    name: "White Mocha",
+    info: "",
+    price: 6.2,
   },
   {
     category: "Special Lattes",
