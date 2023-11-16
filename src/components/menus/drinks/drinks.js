@@ -109,9 +109,39 @@ const drinks = [
   },
   {
     category: "Special Lattes",
-    name: "tea",
-    info: "tea",
-    price: 2,
+    name: "Ube Latte (iced)",
+    info: "Ube jam sweetened with condensed milk, floated espresso shots",
+    price: 6.2,
+  },
+  {
+    category: "Special Lattes",
+    name: "The graham",
+    info: "Honey, cinnamon, and vanilla syrup",
+    price: 6.2,
+  },
+  {
+    category: "Special Lattes",
+    name: "Honey Lavender",
+    info: "Honey with lavender syrup",
+    price: 6.2,
+  },
+  {
+    category: "Special Lattes",
+    name: "Caramel Dream",
+    info: "Caramel & vanilla syrup",
+    price: 6.2,
+  },
+  {
+    category: "Special Lattes",
+    name: "Rose Latte",
+    info: "Sweetened with rose syrup",
+    price: 6.2,
+  },
+  {
+    category: "Special Lattes",
+    name: "Charcoal Latte",
+    info: "Vanila latte with activated charcoal",
+    price: 6.2,
   },
   {
     category: "Tea Lattes",
