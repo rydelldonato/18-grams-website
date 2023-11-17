@@ -34,8 +34,6 @@ export default function Header() {
             HOURS & LOCATIONS
           </Link>
           <Link to="/menus">MENUS</Link>
-          <Link to="/ourstory">OUR STORY</Link>
-          <Link to="/orderpickup">ORDER PICKUP</Link>
           <Link to="/contact">CONTACT</Link>
           <div className="socialLine"></div>
           <a href="https://www.instagram.com/18grams.916/">
