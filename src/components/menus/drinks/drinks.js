@@ -199,7 +199,7 @@ const drinks = [
   },
   {
     category: "Matcha",
-    name: "Mathca Latte",
+    name: "Matcha Latte",
     info: "Matcha sweetened with vanilla",
     price: 6,
   },
