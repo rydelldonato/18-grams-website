@@ -11,7 +11,7 @@
 .titleAndPriceDiv{
   display: flex;
   justify-content: center;
-
+  margin-bottom: -25px;
 }
 .name {
   font-weight: bold;
@@ -19,4 +19,7 @@
 .price{
   font-weight: bold;
   margin-left: 10px;
+}
+.info{
+  margin-bottom: 25px;
 }
