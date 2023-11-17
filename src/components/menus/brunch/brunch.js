@@ -90,6 +90,24 @@ const brunch = [
     info: "Scrambled egg, potato, sausage, bacon, and longanisa in chili oil topped with cheese, jalapenos and green onions. Served with toasted bread",
     price: 16,
   },
+  {
+    category: "Udon",
+    name: "Miso Carbonara",
+    info: "Bacon with gochujang and mayo sauce, green onion, topped with cheese and egg yolk",
+    price: 16,
+  },
+  {
+    category: "Udon",
+    name: "Kimchi Udon",
+    info: "Pork Belly, garlic, green onions, topped with fried egg, seaweed, and sesame seeds",
+    price: 15,
+  },
+  {
+    category: "Soup",
+    name: "Leek Potato Soup",
+    info: "Choice of: Side | Bowl. Leeks and potatoes with creamy garlic sauce and our house signature chorizo. Served with toasted bread.",
+    price: '5.99 | 6.99',
+  },
 ];
 
 export default brunch;
