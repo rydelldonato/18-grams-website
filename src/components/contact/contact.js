@@ -6,6 +6,7 @@ export default function Contact() {
   return (
     <>
       <Header />
+      <div>
       <iframe
           title="JotForm"
           id="jotformIFrame"
@@ -18,6 +19,7 @@ export default function Contact() {
             border: "none",
           }}
         ></iframe>
+      </div>
     </>
   );
 }
