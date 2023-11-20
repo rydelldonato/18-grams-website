@@ -7,14 +7,17 @@ export default function Contact() {
     <>
       <Header />
       <iframe
-        id="JotFormIFrame-233218218954156"
-        title="18 grams contact form"
-        allowtransparency="true"
-        src="https://form.jotform.com/233218218954156"
-        style={{Width: '100%', height: '539px', border: 'none' }}
-        frameborder="0"
-      >
-      </iframe>
+          title="JotForm"
+          id="jotformIFrame"
+          allowTransparency="true"
+          src="https://form.jotform.com/233236264862155"
+          frameborder="0"
+          style={{
+            width: "100%",
+            height: "500px",
+            border: "none",
+          }}
+        ></iframe>
     </>
   );
 }
