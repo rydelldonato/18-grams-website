@@ -11,7 +11,7 @@ export default function Contact() {
           title="JotForm"
           id="jotformIFrame"
           allowTransparency="true"
-          src="https://www.jotform.com/form/233236264862155"
+          src="https://form.jotform.com/233236264862155"
           frameborder="0"
           style={{
             width: "100%",
