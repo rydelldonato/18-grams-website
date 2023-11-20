@@ -9,12 +9,10 @@ export default function Contact() {
       <iframe
         id="JotFormIFrame-233218218954156"
         title="18 grams contact form"
-        onLoad={() => window.parent.scrollTo(0, 0)}
         allowtransparency="true"
-        allowFullScreen="true"
-        allow="geolocation; microphone; camera"
         src="https://form.jotform.com/233218218954156"
-        style={{ minWidth: '100%', maxWidth: '100%', height: '539px', border: 'none' }}
+        style={{Width: '100%', height: '539px', border: 'none' }}
+        frameborder="0"
       >
       </iframe>
     </>
