@@ -13,7 +13,7 @@ export default function Contact() {
         allowtransparency="true"
         allowFullScreen="true"
         allow="geolocation; microphone; camera"
-        src="https://form.jotform.com/233218218954156"
+        src="https://form.jotform.com/233218218954156?nav=false"
         style={{ minWidth: '100%', maxWidth: '100%', height: '539px', border: 'none' }}
       >
       </iframe>
