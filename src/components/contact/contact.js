@@ -1,13 +1,25 @@
-import React from 'react';
-import Header from '../header/header';
+import React from "react";
+import Header from "../header/header";
+import './contact.css'
 
 export default function Contact() {
-
   return (
     <>
       <Header />
       <div>
-      <iframe
+        <h3 className="header">Contact</h3>
+        <div className="coffeeIcons">
+          <img src="./icons-coffee.png"/>
+          <img src="./icons-coffee.png"/>
+          <img src="./icons-coffee.png"/>
+        </div>
+        <p className="message">
+          Send us a message and we’ll get back to you as soon as possible.
+          Looking forward to hearing from you.
+        </p>
+      </div>
+      <div>
+        <iframe
           title="JotForm"
           id="jotformIFrame"
           allowTransparency="true"

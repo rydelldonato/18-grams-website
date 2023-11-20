@@ -1,0 +1,15 @@
+.header{
+    margin: 0px;
+    margin-top: 5px;
+}
+.coffeeIcons{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+.coffeeIcons img{
+    width: 10%;
+}
+.message{
+    font-size: 10px;
+}
