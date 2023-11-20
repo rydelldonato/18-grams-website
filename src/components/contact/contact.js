@@ -13,10 +13,6 @@ export default function Contact() {
           <img alt="coffee icon" src="./icons-coffee.png"/>
           <img alt="coffee icon" src="./icons-coffee.png"/>
         </div>
-        <p className="message">
-          Send us a message and we’ll get back to you as soon as possible.
-          Looking forward to hearing from you.
-        </p>
       </div>
       <div>
         <iframe
