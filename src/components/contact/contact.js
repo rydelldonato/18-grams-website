@@ -5,7 +5,7 @@ export default function Contact() {
 
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <div>
       <iframe
           title="JotForm"
