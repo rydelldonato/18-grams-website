@@ -9,9 +9,9 @@ export default function Contact() {
       <div>
         <h3 className="header">Contact</h3>
         <div className="coffeeIcons">
-          <img src="./icons-coffee.png"/>
-          <img src="./icons-coffee.png"/>
-          <img src="./icons-coffee.png"/>
+          <img alt="coffee icon" src="./icons-coffee.png"/>
+          <img alt="coffee icon" src="./icons-coffee.png"/>
+          <img alt="coffee icon" src="./icons-coffee.png"/>
         </div>
         <p className="message">
           Send us a message and we’ll get back to you as soon as possible.
