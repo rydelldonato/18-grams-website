@@ -1,12 +1,18 @@
-.header{
-    margin: 0px;
-    margin-top: 5px;
+@media (max-width: 768px) {
+    .header{
+        margin: 0px;
+        margin-top: 5px;
+    }
+    .coffeeIcons{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 100px;
+    }
+    .coffeeIcons img{
+        width: 10%;
+    }
 }
-.coffeeIcons{
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 100px;
-}
-.coffeeIcons img{
-    width: 10%;
+
+/* Media query for mobile medium (max-width: 375px) */
+@media (max-width: 375px) {
 }
