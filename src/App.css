@@ -9,3 +9,9 @@
   url('/public/fonts/Alyssum-Sans.woff2') format('woff2');
 
 }
+@media (max-width: 1440px) {
+.App{
+  width: 100vw;
+}
+}
+
