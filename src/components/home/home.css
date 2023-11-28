@@ -1,8 +1,5 @@
-@media (max-width: 1440px) {
-
-}
 /* Media query for mobile large (max-width: 767px) */
-@media (max-width: 425px) {
+@media (max-width: 1023px) {
   .headline {
     text-align: center;
   }
@@ -54,3 +51,17 @@
 /* Media query for mobile medium (max-width: 375px) */
 @media (max-width: 375px) {
 }
+/* Media query for screen size 1024px and above */
+@media (min-width: 1024px) {
+  .desktop {
+    content: url("../../../public/desktop-home.png"); /* Replace with the path to your new desktop image */
+    width: 100%;
+  }
+
+  .logo {
+    content: url("../../../public/logo-desktop.png"); /* Replace with the path to your new logo image */
+    width: 100%;
+  }
+}
+
+

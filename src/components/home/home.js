@@ -10,7 +10,7 @@ export default function Home() {
         <div className="topHomeSection">
           <a href="https://www.instagram.com/18grams.916/">
             <div className="storeLogo">
-              <img alt="store logo" width="90%" src="./store-logo.jpg" />
+              <img className="logo" alt="store logo" width="90%" src="./store-logo.jpg" />
             </div>
           </a>
           <div className="headLineContainer">
@@ -22,7 +22,7 @@ export default function Home() {
             <img alt="coffee icon" src="./icons-coffee.png" />
           </div>
           <div id="target-div">
-            <img className="canva" alt="food and drinks" src="./page1.gif" />
+            <img className="canva desktop" alt="food and drinks" src="./page1.gif" />
             <img className="canva" alt="food and drinks" src="./page2.gif" />
             <img className="canva" alt="food and drinks" src="./page3.gif" />
             <img className="canva" alt="food and drinks" src="./page4.gif" />
