@@ -1,5 +1,5 @@
 /* Media query for mobile large (max-width: 767px) */
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .topHeader {
     display: flex;
     justify-content: space-evenly;
@@ -91,4 +91,14 @@
 
 /* Media query for mobile medium (max-width: 375px) */
 @media (max-width: 375px) {
+}
+
+@media (min-width: 1024px){
+  .vertical-menu{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .menuLink{
+    color: black;
+  }
 }
