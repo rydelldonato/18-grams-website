@@ -53,10 +53,26 @@
 }
 /* Media query for screen size 1024px and above */
 @media (min-width: 1024px) {
-  .desktop {
+  .page1Desktop {
     content: url("../../../public/desktop-home.png"); /* Replace with the path to your new desktop image */
     width: 100%;
   }
+.page2Desktop{
+  content: url("../../../public/desktop-page2.png"); /* Replace with the path to your new desktop image */
+    width: 100%;
+}
+.page3Desktop{
+  content: url("../../../public/desktop-page3.png"); /* Replace with the path to your new desktop image */
+    width: 100%;
+}
+.page4Desktop{
+  content: url("../../../public/desktop-page4.png"); /* Replace with the path to your new desktop image */
+    width: 100%;
+}
+.page5Desktop{
+  content: url("../../../public/desktop-page5.png"); /* Replace with the path to your new desktop image */
+    width: 100%;
+}
 
   .logo {
     content: url("../../../public/logo-desktop.png"); /* Replace with the path to your new logo image */
