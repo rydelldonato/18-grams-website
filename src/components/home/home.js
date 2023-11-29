@@ -10,24 +10,39 @@ export default function Home() {
         <div className="topHomeSection">
           <a href="https://www.instagram.com/18grams.916/">
             <div className="storeLogo">
-              <img className="logo" alt="store logo" width="90%" src="./store-logo.jpg" />
+              <img
+                className="logo"
+                alt="store logo"
+                width="90%"
+                src="./store-logo.jpg"
+              />
             </div>
           </a>
           <div className="headLineContainer">
             <p>Midtown-Inspired</p>
-            <img alt="coffee icon" src="./icons-coffee.png" />
+            <div>
+              <img alt="coffee icon" src="./icons-coffee.png" />
+            </div>
             <p>Crafted In-House</p>
-            <img alt="coffee icon" src="./icons-coffee.png" />
+            <div>
+              <img alt="coffee icon" src="./icons-coffee.png" />
+            </div>
             <p>Sip-Worthy</p>
-            <img alt="coffee icon" src="./icons-coffee.png" />
+            <div>
+              <img alt="coffee icon" src="./icons-coffee.png" />
+            </div>
           </div>
           <div id="target-div">
-            <img className="canva desktop" alt="food and drinks" src="./page1.gif" />
+            <img
+              className="canva desktop"
+              alt="food and drinks"
+              src="./page1.gif"
+            />
             <img className="canva" alt="food and drinks" src="./page2.gif" />
             <img className="canva" alt="food and drinks" src="./page3.gif" />
             <img className="canva" alt="food and drinks" src="./page4.gif" />
             <a href="https://www.instagram.com/18grams.916/">
-            <img className="canva" alt="food and drinks" src="./page5.gif" />
+              <img className="canva" alt="food and drinks" src="./page5.gif" />
             </a>
           </div>
         </div>

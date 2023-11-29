@@ -62,6 +62,11 @@
     content: url("../../../public/logo-desktop.png"); /* Replace with the path to your new logo image */
     width: 100%;
   }
+  .headLineContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 120px;
+  }
 }
 
 
