@@ -23,7 +23,8 @@ const Slideshow = (props) => {
             <div className="slideshowSlider" key={index}>
               <div
                 className="slide-div"
-              ><img width={'100%'} alt={slideImage} src={slideImage.url}/></div>
+                style={{ backgroundImage: `url(${slideImage.url})` }}
+              ></div>
               <span></span>
               <ul className="slick-dots">
                 {slideImages.map((_, buttonIndex) => (

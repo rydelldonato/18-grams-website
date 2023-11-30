@@ -1,12 +1,12 @@
 /* @import "react-slideshow-image/dist/styles.css"; */
 
 /* Media query for mobile large (max-width: 767px) */
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .slide-container {
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
-    max-width: 500px;
+    /* max-width: 500px; */
   }
 
   .slide-span {
@@ -126,4 +126,127 @@
 
 /* Media query for mobile medium (max-width: 375px) */
 @media (max-width: 375px) {
+}
+/* Media query for screen size 1024px and above */
+@media (min-width: 1024px) {
+  .slide-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 20px;
+    /* max-width: 500px; */
+  }
+
+  .slide-span {
+    padding: 20px;
+    background: #efefef;
+    color: #000000;
+  }
+
+  .slide-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    max-width: 100%; /* Set the maximum width to 100% */
+    margin: 0 auto; /* Center the element horizontally */
+    height: 400px;
+  }
+  .slideshowSlider {
+    height: 400px;
+    width: 100%;
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .slick-dots {
+    transform: translateY(-77px);
+    bottom: 0;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.7));
+    position: absolute;
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    color: #fff;
+  }
+
+  .slick-dots li {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 15px 7px 0px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+  }
+
+  .slick-dots button {
+    border: 0;
+    background: transparent;
+    display: block;
+    height: 20px;
+    width: 20px;
+    outline: none;
+    line-height: 0px;
+    font-size: 0px;
+    color: transparent;
+    padding: 5px;
+    cursor: pointer;
+    margin: 0;
+    line-height: inherit;
+    border-radius: 0;
+    position: absolute;
+    z-index: 3;
+  }
+  .active {
+    background: tan;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    margin: 0;
+  }
+  .react-slideshow-container .nav {
+    display: none;
+  }
+  .coffee-icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+  }
+  .text{
+    font-family: 'Fira Sans', sans-serif;
+  }
+  .hoursAndLocations{
+    display: flex;
+    flex-direction: column;
+  }
+  .hoursAndLocations a{
+    color: black;
+    position: relative;
+    z-index: 2;
+  }
+  
 }

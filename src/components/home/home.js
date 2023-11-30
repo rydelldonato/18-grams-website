@@ -41,9 +41,7 @@ export default function Home() {
             <img className="canva page2Desktop" alt="food and drinks" src="./page2.gif" />
             <img className="canva page3Desktop" alt="food and drinks" src="./page3.gif" />
             <img className="canva page4Desktop" alt="food and drinks" src="./page4.gif" />
-            <a href="https://www.instagram.com/18grams.916/">
               <img className="canva page5Desktop" alt="food and drinks" src="./page5.gif" />
-            </a>
           </div>
         </div>
       </div>
