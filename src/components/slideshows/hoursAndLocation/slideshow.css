@@ -150,7 +150,7 @@
     background-size: cover;
     max-width: 100%; /* Set the maximum width to 100% */
     margin: 0 auto; /* Center the element horizontally */
-    height: 400px;
+    height: 620px;
   }
   .slideshowSlider {
     height: 400px;
@@ -163,7 +163,6 @@
     transform: translateY(-77px);
     bottom: 0;
     filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.7));
-    position: absolute;
     list-style: none;
     display: block;
     text-align: center;
