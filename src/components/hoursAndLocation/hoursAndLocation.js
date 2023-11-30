@@ -74,6 +74,7 @@ export default function HoursAndLocation() {
           <p>1600 Ethan Way Ste 30, Sacramento, CA 95825</p>
           <p>M-W 8AM-2PM, TH-Sun 8AM-8PM</p>
           {/* Yelp Review Embed Code */}
+          <div className="yelp-reviewDiv">
           <span
             className="yelp-review"
             data-review-id="zaOSDECRx_6YO30jJf0fRw"
@@ -82,6 +83,7 @@ export default function HoursAndLocation() {
           >
             Read <a href="https://www.yelp.com/user_details?userid=CNl758-IFadffzzaKH9eUw" rel="nofollow noopener">Athena M.</a>'s <a href="https://www.yelp.com/biz/18-grams-coffee-roasters-sacramento?hrid=zaOSDECRx_6YO30jJf0fRw" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/rtF0Mvs6iScYR9oBueQrtA" rel="nofollow noopener">18 Grams Coffee Roasters</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a>
           </span>
+          </div>
           <div style={{ height: 15 }}></div>
         </div>
         <div

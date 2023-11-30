@@ -1,7 +1,7 @@
 /* @import "react-slideshow-image/dist/styles.css"; */
 
-/* Media query for mobile large (max-width: 767px) */
-@media (max-width: 768px) {
+/* Media query for mobile large (max-width: 1023px) */
+@media (max-width: 1023px) {
   .allContent{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   }
@@ -36,4 +36,12 @@
   /* Media query for mobile medium (max-width: 375px) */
   @media (max-width: 375px) {
   }
+
+  /* Media query for screen size 1024px and above */
+@media (min-width: 1024px) {
+  .yelp-reviewDiv{
+    display: flex;
+    justify-content: center;
+  }
+}
   
