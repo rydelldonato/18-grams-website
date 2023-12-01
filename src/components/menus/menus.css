@@ -64,17 +64,24 @@
   .middleDiv{
     background-color: #385b4f;
     padding: 10px;
-    margin-top: 5px;
-    margin-left: 100px;
-    margin-right: 100px;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    width: 80%;
+    margin: 10px auto; /* Center horizontally */
   }
   .menusSpanDiv{
-    background-color: #385b4f;
-    margin: 0px 100px;
-    display: flex;
-    justify-content: center;
-    height: 85px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Additional styling properties */
+    z-index: 2;
+    padding-top: 30vh;
+    letter-spacing: 1px;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
   }
 }
