@@ -53,7 +53,7 @@ export default function Menus() {
         <div className="middleDiv">
           <h2>Welcome to Our Café and Brunch Menu</h2>
           <div className="middleDivWelcomeMessage">
-            <p>
+            <p className="middleDivWelcomeParagraph">
               Indulge in our delightful selection of beverages and brunch
               options. We strive to create a warm and inviting atmosphere for
               you to enjoy delicious treats with friends and family.

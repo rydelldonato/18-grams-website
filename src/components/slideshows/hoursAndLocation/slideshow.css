@@ -247,5 +247,8 @@
     position: relative;
     z-index: 2;
   }
-  
+  .slide-div img{
+    max-width: 100%;
+    height: auto;
+  }
 }
