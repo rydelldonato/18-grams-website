@@ -19,10 +19,6 @@ export default function Home() {
             </div>
           </a>
           <div className="headLineContainer">
-            <p>Midtown-Inspired</p>
-            <div>
-              <img alt="coffee icon" src="./icons-coffee.png" />
-            </div>
             <p>Crafted In-House</p>
             <div>
               <img alt="coffee icon" src="./icons-coffee.png" />
