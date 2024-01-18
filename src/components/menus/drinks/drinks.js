@@ -38,7 +38,7 @@ const drinks = [
   {
     category: "House Specials",
     name: "1987 (Iced)",
-    info: "Hazelnut iced coffee sweetened with condensed milk, topped with sea salt cream & ibarra chocolate",
+    info: "Hazelnut iced coffee sweetened with condensed milk, topped with sea salt cream & Ibarra chocolate",
     price: 6,
   },
   {
@@ -50,7 +50,7 @@ const drinks = [
   {
     category: "House Specials",
     name: "Vietnamese Hazelnut",
-    info: "Espresso sweetened with a salted hazelnut condensed milk, served over ice with a splash of half and halk",
+    info: "Espresso sweetened with a salted hazelnut condensed milk, served over ice with a splash of half and half",
     price: 6,
   },
   {
@@ -86,7 +86,7 @@ const drinks = [
   {
     category: "Mochas",
     name: "Mocha",
-    info: "Ghiradelli & Ibarra chocolate, espresso and milk",
+    info: "Ghirardelli & Ibarra chocolate, espresso and milk",
     price: 6.2,
   },
   {
@@ -109,13 +109,13 @@ const drinks = [
   },
   {
     category: "Special Lattes",
-    name: "Ube Latte (iced)",
+    name: "Ube Latte (Iced)",
     info: "Ube jam sweetened with condensed milk, floated espresso shots",
     price: 6.2,
   },
   {
     category: "Special Lattes",
-    name: "The graham",
+    name: "The Graham",
     info: "Honey, cinnamon, and vanilla syrup",
     price: 6.2,
   },
@@ -140,24 +140,24 @@ const drinks = [
   {
     category: "Special Lattes",
     name: "Charcoal Latte",
-    info: "Vanila latte with activated charcoal",
+    info: "Vanilla latte with activated charcoal",
     price: 6.2,
   },
   {
     category: "Tea Lattes",
-    name: "kloud 18",
+    name: "Kloud 18",
     info: "Honey sweetened chamomile tea with soy milk",
     price: 6,
   },
   {
     category: "Tea Lattes",
     name: "London Fog",
-    info: "Honey sweetened earl grey tea with milk",
+    info: "Honey sweetened Earl Grey tea with milk",
     price: 6,
   },
   {
     category: "Tea Lattes",
-    name: "Mighty mint",
+    name: "Mighty Mint",
     info: "Honey sweetened Moroccan mint tea with milk",
     price: 6,
   },
@@ -176,7 +176,7 @@ const drinks = [
   {
     category: "Tea Lattes",
     name: "Chai Latte",
-    info: "North Fork Chai concentrate",
+    info: "North Fork Chai",
     price: 6,
   },
   {
@@ -188,7 +188,7 @@ const drinks = [
   {
     category: "Tea Lattes",
     name: "Chocolate Chai",
-    info: "North Fork Chai concentrate with chocolate",
+    info: "North Fork Chai with chocolate",
     price: 6,
   },
   {
@@ -205,7 +205,7 @@ const drinks = [
   },
   {
     category: "Matcha",
-    name: "Strawberry Matcha (iced)",
+    name: "Strawberry Matcha (Iced)",
     info: "Matcha with strawberry syrup",
     price: 6,
   },
@@ -260,7 +260,7 @@ const drinks = [
   {
     category: "Lemonade",
     name: "Herbal Lemonade",
-    info: "Half lemonade and halk herbal tea",
+    info: "Half lemonade and half herbal tea",
     price: 5,
   },
 ];
