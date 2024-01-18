@@ -67,9 +67,8 @@ export default function Menus() {
               <p>
                 We serve <span>brunch</span>
                 <br></br>
-                <span>T-W from 8AM-2PM</span> * TH-SUN from 8AM-6PM
+                <span>TUES-WED from 8AM-2PM</span> * TH-SUN from 8AM-3PM
                 <br></br>
-                (last call at 5:30pm)
               </p>
             </div>
           </div>
