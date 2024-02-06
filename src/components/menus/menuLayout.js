@@ -23,6 +23,14 @@ export default function MenuLayout(props) {
           {drink.info && <p className="info">{drink.info}</p>}
         </div>
       ))}
+      <br></br>
+      <div className="review">
+        "Definitely has turned into my favorite Sacramento coffee shop. - Jasmine O. (Yelp)"
+      </div>
+      <br></br>
+      <div className="review">
+"This cafe is definitely one of my new favorites in Sacramento! - Jessy W. (Yelp)"
+      </div>
     </>
   );
 }
