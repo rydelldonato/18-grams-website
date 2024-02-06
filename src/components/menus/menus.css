@@ -63,6 +63,11 @@
 
 /* Media query for screen size 1024px and above */
 @media (min-width: 1024px){
+  .review{
+    font-style: italic;
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+  }
   .middleDivWelcomeParagraph{
     padding: 0px 147px;
   }

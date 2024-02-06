@@ -7,6 +7,10 @@ export default function Home() {
     <>
       <div>
         <Header />
+          <div className="review">
+            "18 Grams is hands down the best coffee shop in the Sacramento area" - Mikaela F. (Yelp)
+          </div>
+          <br></br>
         <div className="topHomeSection">
           <a href="https://www.instagram.com/18grams.916/">
             <div className="storeLogo">
