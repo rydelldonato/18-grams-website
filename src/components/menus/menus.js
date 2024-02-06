@@ -69,6 +69,8 @@ export default function Menus() {
                 <br></br>
                 <span>TUES-WED from 8AM-2PM</span> * TH-SUN from 8AM-3PM
                 <br></br>
+                <p className="review">"This coffee shop has the best food menu. The BEST food menu!" - Riza G. (Yelp)</p>
+                <p className="review">"Favorite coffee shop in Sac!!! And that is from someone who has been on the Sac Coffee scene for almost 10 years!" - Kayla J. (Yelp)</p>
               </p>
             </div>
           </div>
