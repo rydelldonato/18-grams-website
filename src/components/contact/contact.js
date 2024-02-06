@@ -28,6 +28,9 @@ export default function Contact() {
           }}
         ></iframe>
       </div>
+      <div>
+        "18 Grams is my favorite coffee shop in Sacramento!" - Shannon D. (Yelp)
+      </div>
     </>
   );
 }
