@@ -3,7 +3,7 @@ const drinks = [
     category: "Traditional",
     name: "House Coffee",
     info: "",
-    price: 2,
+    price: 4,
   },
   {
     category: "Traditional",
@@ -57,7 +57,7 @@ const drinks = [
     category: "House Specials",
     name: "18 to the brain",
     info: "Quad shot sweetened with condensed milk & shaken",
-    price: 2,
+    price: 6.2,
   },
   {
     category: "House Specials",
@@ -261,7 +261,7 @@ const drinks = [
     category: "Lemonade",
     name: "Herbal Lemonade",
     info: "Half lemonade and half herbal tea",
-    price: 5,
+    price: 6,
   },
 ];
 
