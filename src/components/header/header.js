@@ -12,7 +12,8 @@ export default function Header() {
   return (
     <>
       <div className="topHeader">
-        <p>18 Grams Coffee Roasters / 18 Grams Coffee + Tea</p>
+        <h1>18 Grams Coffee Roasters</h1>
+        <h1>18 Grams Coffee + Tea</h1>
         <p>1600 Ethan Way Ste 30, Sacramento, CA 95825</p>
         <div className="menuBarsContainer">
           <div
