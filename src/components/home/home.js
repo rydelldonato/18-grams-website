@@ -7,8 +7,9 @@ export default function Home() {
     <>
       <div>
         <Header />
-          <div className="review">
-            "18 Grams is hands down the best coffee shop in the Sacramento area" - Mikaela F. (Yelp)
+          <div className="homepageReview review">
+            <p>"18 Grams is hands down the best coffee shop in the Sacramento area" - Mikaela F. (Yelp)</p>
+            <p>"18 Grams Coffee is by far my dream coffee shop" - Shy G. (Yelp)</p>
           </div>
           <br></br>
         <div className="topHomeSection">
