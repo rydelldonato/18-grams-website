@@ -12,9 +12,13 @@ export default function Header() {
   return (
     <>
       <div className="topHeader">
+        <div className="headerBusinessInfo">
+          <div className="headerBusinessNames">
         <h1>18 Grams Coffee Roasters</h1>
         <h1>18 Grams Coffee + Tea</h1>
+          </div>
         <p>1600 Ethan Way Ste 30, Sacramento, CA 95825</p>
+        </div>
         <div className="menuBarsContainer">
           <div
             className={`container ${isChange ? "change" : ""}`}
